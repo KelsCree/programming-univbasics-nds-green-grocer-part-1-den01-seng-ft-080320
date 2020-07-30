@@ -24,11 +24,11 @@ while counter < cart.length
         :clearance => cart[:counter][:clearance],
         :count => 1
       }
-      new_cart.push(new_cart_item)
+      new_cart.push << new_cart_item
   end
 counter += 1
 end
-return new_cart
+new_cart
 end
 
 
