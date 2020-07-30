@@ -14,8 +14,10 @@ def consolidate_cart(cart)
 reciept = []
 counter = 0
 while counter < cart.length
-if find_item_by_name_in_collection(cart[counter][:item])
+if find_item_by_name_in_collection(cart[counter][:item]) = TRUE
+  
 end
+
 
 
   
